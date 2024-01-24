@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.result-container{
+    padding: 20px;
+    text-align: center;
+    background-color: #480ca8;
+}
+.heading{
+    color: #679436;
+}
+.report-section{
+    background-color: white;
+    padding: 30px;
+    width: 40%;
+    position: relative;
+    left: 30%;
+    border-left: 7px solid #bdb2ff;
+}
+.report-headings{
+    display: grid;
+    grid-template-rows: repeat(2,50px);
+}
+.score{
+    color: blue;
+}
+.overall-report{
+    display: grid;
+    grid-template-rows: repeat(4,50px);
+    gap: 20px;
+
+}
+.report1,.report2,.report3,.report4{
+    display: flex;
+    justify-content: space-between;
+}
+.playAgain-btn button{
+    border: 2px solid #8093f1;
+    width: 100px;
+    color: #8093f1;
+    padding: 2px;
+}
+.home-btn button{
+    border: 2px solid #548c2f;
+    width: 100px;
+    color: #548c2f;
+    padding: 2px;
+}
