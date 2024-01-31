@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <Home />
-      {/* <Quiz /> */}
-      {/* <Result /> */}
+      <Quiz />
+      <Result />
     </>
   )
 }
